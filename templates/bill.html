@@ -1,0 +1,23 @@
+<html>
+    <head><title>DLS Grocery - Your Bill</title></head>
+<body>
+<h1>Your Bill for DLS Grocery</h1>
+<table border="2" width="100%">
+<tr><th>Product</th><th>Unit Cost</th><th>Number Purchased</th><th>Cost</th></tr>
+{% for element in items %}
+   <tr>
+       <td>
+        {{ element[0] }}
+        </td>
+        <td>
+        {{ element[1] }}
+        </td>
+        <td>
+        {{ element[2]}}
+        </td>
+        <td>
+        {{ element[3]}}
+        </td>
+    </tr>
+{% endfor %}
+ </table></body></html>
