@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DeLaSalle's Grocery</title>
+</head>
+<body>
+<center>
+<img src="images/dls.png">
+</center>
+<form name="order_form" method="post" action="http://127.0.0.1:5001/generate_bill">
+
+<table border="2" width="100%">
+<tr>
+<th>Item</th>
+<th>Picture</th>
+<th>Price</th>
+<th>Number to Purchase</th>
+</tr> 
+
+<tr align="center">
+<td>Granny Smith Apple</td>
+<td><img src="images/gsmith_apple.jpg" height="60", width="60"></td>
+<td>79&cent;</td>
+<td><input type="number" name="num_gsmith" value="0"></td>
+</tr>
+
+<tr align="center">
+<td>Strawberries (1 pound)</td>
+<td><img src="images/strawberries.jpg" height="60", width="60"></td>
+<td>$1.99</td>
+<td><input type="number" name="num_strawberries" value="0"></td>
+</tr>
+
+<tr align="center">
+<td>Eggs (1 dozen)</td>
+<td><img src="images/eggs.jpg" height="60", width="60"></td>
+<td>$1.69</td>
+<td><input type="number" name="num_eggs" value="0"></td>
+</tr>
+
+<tr align="center">
+<td>Milk (1 gallon)</td>
+<td><img src="images/milk.jpg" height="60", width="60"></td>
+<td>$2.29</td>
+<td><input type="number" name="num_milk" value="0"></td>
+</tr>
+
+<tr align="center">
+<td>Soda (two liter)</td>
+<td><img src="images/soda.jpg" height="60", width="60"></td>
+<td>$1.25</td>
+<td><input type="number" name="num_soda" value="0"></td>
+</tr>
+
+</table>
+<button type="submit">Submit Order</button>
+</form>
+</body>
+</html>
+
