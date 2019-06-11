@@ -28,4 +28,4 @@ This will initiate the flask server on port 5001
 * [Python 3.7](https://www.python.org/downloads/release/python-370/) - The language used
 
 ## Disclaimer
-This was made for educational purposes. It is not meant to be complex but was intended to test Python alongside Flask.
+This was made for educational purposes. It is not meant to be complex but was intended to test Python alongside Flask. This was for the CIS 431 Design and Analysis course at Manhattan College.
